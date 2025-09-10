@@ -1,2 +1,2 @@
 # Styles
-Personal css collection
+Personal css collection for [Stylus](https://userstyles.world/explore)
