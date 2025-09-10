@@ -1,0 +1,126 @@
+/*Hide sections*/
+section[data-testid="Photos"] {
+    display: none
+}
+
+section[data-testid="main-column-editorial-single"] {
+    display: none
+}
+
+section[data-testid="DidYouKnow"] {
+    display: none
+}
+
+section[data-testid="DynamicFeature_TopPicks"] {
+    display: none
+}
+
+section[data-testid="StaticFeature_FAQ"] {
+    display: none
+}
+
+section[data-testid="contribution"] {
+    display: none
+}
+
+section[data-testid="StaticFeature_News"] {
+    display: none
+}
+
+section[data-testid="Storyline"] {
+    display: none
+}
+
+section[data-testid="BoxOffice"] {
+    display: none
+}
+
+section[data-testid="News"] {
+    display: none
+}
+
+section[data-testid="DynamicFeature_EditorialLists"] {
+    display: none
+}
+
+section[data-testid="DynamicFeature_UserLists"] {
+    display: none
+}
+
+section[data-testid="SidebarPolls"] {
+    display: none
+}
+
+section[cel_widget_id="StaticFeature_FAQ"] {
+    display: none
+}
+
+section[cel_widget_id="DynamicFeature_TopPicks"] {
+    display: none
+}
+
+section[data-testid="RelatedInterests"] {
+    display: none
+}
+
+section[cel_widget_id="StaticFeature_Awards"] {
+    display: none
+}
+
+div[data-test-id="right-rail-content-block"] {
+    display: none
+}
+
+/*hide right hand column*/
+section[data-test-id="right-rail-content-block"] {
+    display: none
+}
+
+/*Hide right hand column attempt 2*/
+div[data-test-id="right-rail-content-block"]{display:none;}
+
+/*set left hand column to be wider*/
+.ipc-page-grid__item--span-2 {
+    grid-column: span 3
+}
+.ipc-page-grid__item--span-2 {
+  grid-column: span 3
+}
+/*.ipc-page-grid__item--span-2*/
+
+/*hide other stuff*/
+
+.footer {
+    display: none
+}
+
+div[data-testid="themes-chip-list"] {
+    display: none
+}
+
+li[data-testid="title-cast-styling-proupsell"] {
+    display: none
+}
+
+#ProUpsellLink {
+    display: none
+}
+
+/*trying unsuccessfully to hide Cast&Crew User Reviews Trivial... header*/
+.sc-9194d746-0.ghHjIf { display:none}
+
+main {
+  display: flex;
+}
+
+/*Change order*/
+
+.ipc-page-grid__item--span-2{display:flex;  flex-direction: column;}
+
+
+section[data-testid="UserReviews"]{order:1}
+section[data-testid="Details"]{order:2;}
+section[data-testid="TechSpecs"]{order:3}
+section[data-testid="title-cast"]{order: 4;}
+section[data-testid="videos-section"]{order:5}
+section[data-testid="MoreLikeThis"]{order:6}
