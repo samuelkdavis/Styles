@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           youtube.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+    /* Insert code here... */
+    .ytp-chapter-container {
+        pointer-events: none;
+    }
+    .ytp-chapter-container * {
+        pointer-events: auto;
+    }
+}
