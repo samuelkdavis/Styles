@@ -1,3 +1,9 @@
+/* ==UserStyle==
+@name       Samuel IMDB
+@version    20250717.21.49
+@namespace  ?
+==/UserStyle== */
+
 @-moz-document domain("imdb.com") {
 /*Hide sections*/
 section[data-testid="Photos"] {
