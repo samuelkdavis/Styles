@@ -1,3 +1,4 @@
+@-moz-document domain("imdb.com") {
 /*Hide sections*/
 section[data-testid="Photos"] {
     display: none
@@ -124,3 +125,4 @@ section[data-testid="TechSpecs"]{order:3}
 section[data-testid="title-cast"]{order: 4;}
 section[data-testid="videos-section"]{order:5}
 section[data-testid="MoreLikeThis"]{order:6}
+}
