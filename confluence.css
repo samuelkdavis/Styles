@@ -1,23 +1,43 @@
-[data-testid="highlightActionsPopup"] {
-  display:none;
-}
+/* ==UserStyle==
+@name       confluence - samuelkdavis
+@version    20250910.03.11
+@namespace  github.com/openstyles/stylus
+==/UserStyle== */
+@-moz-document domain("atlassian.net") {
+    [data-testid="highlightActionsPopup"] {
+        display: none;
+    }
 
-[aria-label="Record a Loom video"] {
-  display:none;
-}
+    [aria-label="Record a Loom video"] {
+        display: none;
+    }
 
-[data-testid="object-sidebar-details-button-id"]
-{
-  display:none;
-}
+    [data-testid="object-sidebar-details-button-id"] {
+        display: none;
+    }
 
-[data-vc="nav4-globalItems"]
-{
-display:none;
-}
+    [data-vc="nav4-globalItems"] {
+        display: none;
+    }
 
-[data-ssr-placeholder="kWSCB:fQj-o:NcP7O:6E8ob:F4Zdx-0"] {display:none;}
-[data-ssr-placeholder="MuuSQ:fQj-o:NcP7O:6E8ob:F4Zdx-0"]{display:none;}
-[aria-controls=":R8mauebabt8j5b9:"]{display:none;}
-[id="scroll-to-top-button"]{display:none;}
-[class="cc-9mh1ya"]{display:none;}
+    /*Hide "upgrade" button*/
+    nav > div > div._1e0cglyw._1ydi18uv {
+        display: none;
+    }
+
+    [data-ssr-placeholder="kWSCB:fQj-o:NcP7O:6E8ob:F4Zdx-0"] {
+        display: none;
+    }
+    [data-ssr-placeholder="MuuSQ:fQj-o:NcP7O:6E8ob:F4Zdx-0"] {
+        display: none;
+    }
+    [aria-controls=":R8mauebabt8j5b9:"] {
+        display: none;
+    }
+    [id="scroll-to-top-button"] {
+        display: none;
+    }
+    [class="cc-9mh1ya"] {
+        display: none;
+    }
+}
