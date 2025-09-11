@@ -1,9 +1,8 @@
 /* ==UserStyle==
-@name       Samuel IMDB
+@name       imdb - samuelkdavis
 @version    20250717.21.49
-@namespace  ?
+@namespace  github.com/openstyles/stylus
 ==/UserStyle== */
-
 @-moz-document domain("imdb.com") {
 /*Hide sections*/
 section[data-testid="Photos"] {
@@ -123,7 +122,6 @@ main {
 /*Change order*/
 
 .ipc-page-grid__item--span-2{display:flex;  flex-direction: column;}
-
 
 section[data-testid="UserReviews"]{order:1}
 section[data-testid="Details"]{order:2;}
