@@ -1,16 +1,33 @@
 /* ==UserStyle==
-@name           youtube.com
+@name           Youtube no auto-scroll - samuelkdavis
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
 @-moz-document domain("youtube.com") {
-    /* Insert code here... */
+      /*This is the only part that prevents auto-scroll*/
     .ytp-chapter-container {
         pointer-events: none;
     }
+    
     .ytp-chapter-container * {
         pointer-events: auto;
+    }
+    /*This is to remove my personal annoyances*/
+    /*This removes the download button*/
+    ytd-download-button-renderer {
+        display: none
+    }
+
+    /*Hide thanks button*/
+    /*Selector = the button after/sibling of the download button*/
+    #flexible-item-buttons > ytd-download-button-renderer ~ yt-button-view-model {
+        display: none;
+    }
+
+    /*hide Join button*/
+    #sponsor-button {
+        display: none !important;
     }
 }
